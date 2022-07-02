@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+html {
+font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+section{
+    background-color: grey;
+}
+.container {
+    color: rgb(255, 251, 253);
+    background-color: rgb(248, 241, 241);
+    padding: 10rem 8rem;
+}
+.part-1{
+        background-color: white;
+        height: 400px;
+    }
+.part-2{
+    background-color: white;
+    height: 400px;
+   
+}
+.row-1{
+    background-color: blueviolet;
+}
+/* navigation bar */
+.navbar::after{
+   
+   
+    content: '';
+    display: block;
+    clear: both;
+}
+#left-nav {
+    
+    float: left;
+    padding-left: 3rem;
+    text-decoration: none;
+}
+.list-1 a{
+    text-decoration: none;
+}
+#right-nav{
+    
+    float: right;
+    padding-right: 3rem;
+}
+.nav-items {
+    display: inline-block;
+    padding: 0.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+ul{
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.row-2 h1{
+    float: left;
+    padding-right: 3rem;
+    font-size: 20px;
+    padding-top:0.5rem;
+    color:rgb(212, 96, 212);
+}
+.row-2-button{
+   
+    background-color: rgb(106, 30, 177);
+   padding: 1rem;
+    float: right;
+    color: white;
+    text-transform: uppercase;
+    border: 0ch;
+}
+.row-2{
+   
+    
+    padding: 1rem 3rem;
+    
+}
+.row-2::after{
+        content: '';
+        display: block;
+        clear: both;
+}
+#new-nav{
+    float: left;
+    
+    padding-top:1rem;
+}
+li.list-3-items{
+    text-transform: uppercase;
+    display: inline-block;
+    padding-right: 0.6rem;
+    font-weight: 300;
+    
+}
+select#compare{
+    text-transform: uppercase;
+    border: 0ch;
+}
+select#reviews{
+    text-transform: uppercase;
+    border: 0ch;
+}
+select#search{
+    text-transform: uppercase;
+    border: 0ch;
+}
+
+select#users{
+    text-transform: uppercase;
+    border: 0ch;
+}
+select #quotesus {
+    text-transform: uppercase;
+    border: 0ch;
+}
+select#services{
+    text-transform: uppercase;
+    border: 0ch;
+}
+select#pages{
+    text-transform: uppercase;
+    border: 0ch;
+}
+select#home{
+    text-transform: uppercase;
+    border: 0ch;
+}
+.box-wrapper{
+    background-color: rgb(139, 139, 134);
+    
+    margin:2rem 2rem;
+    
+}
+
+/* ------------------row 3 ------------------- */
+.row-3-wrapper{
+   
+   
+    height: 90vh;;
+    padding:5rem 10rem;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)) ,url('../image/boat2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.row-3-container{
+    color: white;
+    border-color: black;
+    margin-left: 20rem;
+}
+#row-3-part-1 h1{
+    padding:0.5rem 1rem;
+    border:2px;
+    border-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.row-3-container h4{
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 5rem;
+    margin-bottom: 2rem;
+}
+/* search bar */
+.searchbar{
+    float: left;
+    font-size: 10px;
+    background-color: white;
+    color:rgb(95, 89, 89);
+    width:80%;
+    padding: 1rem 2rem;
+    
+    
+}
+.search-sym h2{
+    float:right;
+    width: 20%;
+    padding: 1rem 2rem;
+    background-color: rgb(106, 30, 177);
+    
+
+}
+
+#row-3-part-2::after{
+    display: block;
+    clear: both;
+    content: "";
+    
+}
+/* part 2 */
+.part-2-text{
+    margin-top: 5rem;
+    margin:0rem 30rem;
+    color: black;
+    font-size: 15px;
+}
+#explore{
+    padding-left: 10rem;
+}
+#span{
+    color:purple
+}
+#vecna{
+    font-size: 12px;
+    color: rgb(123, 123, 119);
+    font-weight: 300;
+}
+#consec{
+    font-size: 12px;
+    color: rgb(123, 123, 119);
+    padding:0rem 20rem;
+    font-weight: 300;
+
+}
+
+.img-wrapper{
+    margin:0rem 15rem;
+    background-color: white;
+    height:320px;
+}
+.img-row{
+    margin:0.5rem 0rem;
+    height: 150px;
+    /* background-color: brown; */
+    
+}
+.img-row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.box-1,.box-4{
+    height: 100%;
+    background-color: rgb(191, 87, 104);
+    width:33.33%;
+    margin:0rem 0.2rem;
+    float: left;
+}
+.box-2,.box-5{
+    height: 100%;
+    /* background-color: rgb(191, 87, 104); */
+    width:32.33%;
+    
+    margin-left: 0.2rem;
+    float: left;
+}
+ .box-3,.box-6{
+    height: 100%;
+    /* background-color: rgb(191, 87, 104); */
+    width:32.43%;
+    margin-right: 0.4rem;
+    float: right;
+} 
+.img-row-1 h1{
+    text-align: center;
+    margin-top: 65px;
+}
+.img-row-1 h3{
+    text-align:center;
+}
+.img-row-2 h1,h3{
+    text-align: center;
+    
+}
+.box-1{
+    background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ),url(../image/nyc.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-2{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ),url(../image/california.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-3{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ),url(../image/washington.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-4{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ),url(../image/colorado.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-5{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ),url(../image/longBeach.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-6{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ),url(../image/arizona.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

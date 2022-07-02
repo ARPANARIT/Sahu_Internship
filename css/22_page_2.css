@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&family=Montserrat:wght@100;200;300;400;500;600;700&family=Open+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7;
+}
+
+/* fontsssssss */
+/* font-family: 'Montserrat', sans-serif; */
+.whole {
+    background-color: rgb(89, 89, 89);
+    height: 200vh;
+}
+
+.page {
+    height: 90%;
+    background-color: white;
+    margin: 0rem 23rem;
+    border: 0rem 0.1rem;
+    box-shadow: 2px 2px #313131;
+    padding: 1rem;
+}
+
+/* utility-classes */
+.wt-100 {
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wt-200 {
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wt-300 {
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wt-400 {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wt-500 {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wt-600 {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wt-700 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.red {
+    color: rgb(251, 58, 58);
+}
+
+.sec {
+    height: 48%;
+
+
+}
+
+.sec-1 {
+    margin-bottom: 1rem;
+}
+
+.part-1 {
+    margin: 0.5rem;
+
+    height: 28%;
+    padding-bottom: 1rem;
+}
+
+.part-2 {
+    margin: 0.5rem;
+    background-color: white;
+    height: 68%;
+}
+
+.box {
+    width: 30%;
+    height: 90%;
+    margin: 1rem;
+    background-color: yellow;
+    display: inline-block;
+    /* float: left; */
+
+}
+
+.part-1::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.left,
+.right {
+    height: 100%;
+    width: 50%;
+
+    padding: 1rem
+}
+
+#watch .left,
+#watch .right {
+    background-color: rgb(250, 120, 142);
+}
+
+#watch i {
+    color: rgb(249, 79, 107);
+}
+
+#headphone .left,
+#headphone .right {
+    background-color: rgb(249, 185, 67);
+}
+
+#headphone i {
+    color: rgb(239, 156, 2);
+}
+
+#camera .left,
+#camera .right {
+    background-color: skyblue;
+}
+
+#camera i {
+    color: rgb(39, 186, 244);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.left h4 {
+    font-size: 12px;
+}
+
+.left h1 {
+    font-size: 25px;
+}
+
+#box-left h4 {
+    font-size: 8px;
+}
+
+.deal h2 {
+    float: left;
+    margin-left: 1rem;
+    background-color: white;
+}
+
+.deal i {
+    float: right;
+    margin-right: 1rem;
+}
+
+.deal::after {
+    display: block;
+    clear: both;
+    content: "";
+    background-color: white;
+}
+
+.container {
+    margin: 1rem;
+    padding: 1rem;
+    height: 88%;
+
+}
+
+.container .box-1-1 {
+    height: 100%;
+    width: 48%;
+    background: url(../image/headphone-right.jpg);
+    background-size: cover;
+    background-position: 10% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+
+}
+
+.container .box-2-2 {
+    height: 100%;
+    width: 48%;
+    background: url(../image/smart-watch.jpg);
+    background-size: cover;
+    background-position: 10% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+
+}
+
+.container .box-2-2 {
+    height: 100%;
+    width: 48%;
+
+    float: right;
+}
+
+.container::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.text {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.container h5 {
+    font-size: 12px;
+    color: black;
+}
+
+h6 {
+    font-size: 15px;
+    color: grey;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+}
+
+#myBar {
+    width: 30%;
+    height: 10px;
+    background-color: rgb(249, 79, 107);
+    border-radius: 3rem 3rem;
+}
+
+.icons i {
+    float: left;
+    color: rgb(228, 71, 71);
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+
+.icons::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+#sec-sec-2{
+    height: 49%;
+}
+
+.blue {
+    
+    width: 20%;
+    height: 100%;
+    padding: 0.5rem;
+    float: left;
+}
+ .blue-img{
+    background-image: url(../image/headphone-vertical.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(rgba(0.5,0,0,0.5));
+}
+#blue-text{
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: relative;
+    color:white;
+    top: 20%;
+    left:50%;
+}
+#blue-text h4{
+    background-color: black;
+    font-family: 500;
+    font-size: 10px;
+}
+#blue-text h1{
+    font-size: 25px;
+    
+}
+.white {
+    height: 100%;
+    width: 80%;
+   
+    float: right
+}
+
+.sec .sec-2::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.trend {
+    float: left;
+    padding-left: 2rem;
+    font-size: 15px;
+}
+
+.view {
+    float: right;
+    font-size: 12px;
+    padding-right: 2rem;
+}
+.white .heading i{
+    float: right;
+    font-size: 12px;
+    padding-right: 2rem;
+    margin-top: 0.4rem;
+}
+
+ .heading::after {
+    display: block;
+    content: "";
+    clear: both;
+} 
+.boxes{
+    margin-top: 2rem;
+    height: 90%;
+}
+.white-box{
+    margin: 0.1rem;
+    padding: 0.1rem;
+    width: 24%;
+    height: 99%;
+    float: left;
+}
+.box-1 .box-img{
+    background-color: white;
+    background-image: url(../image/wristwatch.png);
+    height: 80%;
+}
+.box-1 .box-text,.box-2 .box-text,.box-3 .box-text,.box-4 .box-text{
+    background-color: rgb(255, 252, 253);
+    height: 20%;
+    padding-top: 1rem;
+}
+.box-2 .box-img{
+    background-color: white;
+    background-image: url(../image/tv.jpg);
+    height: 80%;
+}
+.box-3 .box-img{
+    background-color: white;
+    background-image: url(../image/phone.jpg);
+    height: 80%;
+}
+.box-4 .box-img{
+    background-color: white;
+    background-image: url(../image/audio.jpg);
+    height: 80%;
+}
+
+.box-text span{
+    color: rgb(67, 203, 67);
+    margin-left: 2rem;
+}
+.star i{
+    float: left;
+    color: rgb(225, 225, 22);
+}
